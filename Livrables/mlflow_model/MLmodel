@@ -1,0 +1,20 @@
+flavors:
+  python_function:
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    python_version: 3.9.7
+  sklearn:
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.0.2
+model_uuid: 6a5db067c58443c9ba9dcd4b648d865a
+signature:
+  inputs: '[{"name": "FLAG_OWN_CAR", "type": "string"}, {"name": "FLAG_OWN_REALTY",
+    "type": "string"}, {"name": "CNT_CHILDREN", "type": "long"}, {"name": "AMT_INCOME_TOTAL",
+    "type": "double"}, {"name": "AMT_CREDIT", "type": "double"}, {"name": "AMT_ANNUITY",
+    "type": "double"}, {"name": "AMT_GOODS_PRICE", "type": "double"}, {"name": "NAME_EDUCATION_TYPE",
+    "type": "string"}, {"name": "NAME_FAMILY_STATUS", "type": "string"}, {"name":
+    "DAYS_BIRTH", "type": "long"}, {"name": "EXT_SOURCE_1", "type": "double"}, {"name":
+    "EXT_SOURCE_2", "type": "double"}, {"name": "EXT_SOURCE_3", "type": "double"}]'
+  outputs: '[{"type": "long"}]'
+utc_time_created: '2022-03-29 19:30:06.100649'
