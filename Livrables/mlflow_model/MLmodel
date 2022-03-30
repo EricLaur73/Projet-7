@@ -7,7 +7,7 @@ flavors:
     pickled_model: model.pkl
     serialization_format: cloudpickle
     sklearn_version: 1.0.2
-model_uuid: f9be8bfc71384c9780d0da59ca162996
+model_uuid: 29135ffa309240a4b3198fcc9b141279
 signature:
   inputs: '[{"name": "FLAG_OWN_CAR", "type": "string"}, {"name": "FLAG_OWN_REALTY",
     "type": "string"}, {"name": "CNT_CHILDREN", "type": "long"}, {"name": "AMT_INCOME_TOTAL",
@@ -17,4 +17,4 @@ signature:
     "DAYS_BIRTH", "type": "long"}, {"name": "EXT_SOURCE_1", "type": "double"}, {"name":
     "EXT_SOURCE_2", "type": "double"}, {"name": "EXT_SOURCE_3", "type": "double"}]'
   outputs: '[{"type": "long"}]'
-utc_time_created: '2022-03-30 10:07:56.228952'
+utc_time_created: '2022-03-30 13:06:32.799558'
