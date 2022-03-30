@@ -3,6 +3,7 @@
     Dépôt fichiers sur Github > Déploiement Automatique sur Heroku à chaque $ git push -u origin main
 
 # Fichiers d'initialisation (heroku et Streamlit)
+    runtime.txt, version de python à utiliser
     requirements.txt, liste des librairies python dont heroku a besoin pour réaliser la build de l'application
     script.sh, contient les 2 processus à lancer dans le même dynos heroku (serveur d'API MLflow et serveur Streamlit)
     Procfile, processus web dynos à lancer après la build (lance le shell script.sh)
